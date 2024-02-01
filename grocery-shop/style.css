@@ -1,0 +1,205 @@
+:root {
+    --green: green;
+    --black: # 130f40;
+    --Light-color: #666;
+    --box-shadow: 0 .1rem 1rem rgba(0, 0, 0.1);
+    --border: 2rem solid rgba(0, 0, 0.1);
+    --outline: 0.1rem solid rgba(0, 0, 0.1);
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+    transition: all .1s linear;
+}
+.header
+{
+    display: flex;
+    border-bottom: 1.5px black;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2rem 9%;
+    box-shadow: var(--box-shadow) ;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background-color: #eee;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+h2{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.header .navbar li {
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: var(--black);
+    outline: none;
+    display: inline-block;
+}
+
+.header .navbar li:hover {
+    color: var(--green);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+.header .icons a
+{
+    border: 0px solid;
+    border-radius: .5rem;
+    background: #eee;
+    color: var(--black);
+    font-size: 4.5rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+.header .icons a:hover{
+background: var(--green);
+}
+#bar{
+    display: none;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    background: url(/icons/freshimgage.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 19rem;
+    padding-bottom: 18rem;
+}
+.home .content {
+text-align: center;
+width: 70rem;
+}
+.home .content h3 span {
+    color: var(--green);
+
+}
+
+.home .content p {
+    color: black;
+    font-size: 2.7rem;
+    padding: 1.8rem 0;
+}
+.home .content h3 {
+    font-size: 35px;
+}
+ button {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+ button:hover{
+  background-color: greenyellow;
+
+
+}
+.heading span {
+    background: var(--green);
+    color: #fff;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+.heading {
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+}
+
+
+.box-container .box {
+    border: 0px solid red;
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.box-container h3
+{
+    font-size: xx-large;
+}
+.box-container p
+{
+   font-size: larger;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   font-weight: bolder;
+}
+.box-container .box:hover {
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+
+.categories
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.categories .cat {
+    border: 0px solid red;
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+.categories .cat:hover {
+    box-shadow: 1px 1px 10px 4px var(--green);
+}
+.categories h3 {
+    font-size: xx-large;
+}
+
+.categories p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+footer
+{
+    border: 1px solid black;
+  background-color: rgb(128, 233, 128);
+  width: 100%;
+  height: 7rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;  
+  padding-top: 3rem;   
+}
+.categories button 
+{
+       color: black;
+        padding: 10px;
+        text-decoration: none;
+}
